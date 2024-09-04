@@ -1,0 +1,102 @@
+body {
+  padding: 0;
+  margin: 25px;
+  background-color: hsl(227, 11%, 15%);
+}
+header {
+  display: flex;
+  justify-content: center;
+}
+img.me {
+  width: 317px;
+  top: 44px;
+  left: 116px;
+  border-radius: 10px, 10px, 0px, 0px;
+}
+h2 {
+  color: hsla(0, 0%, 100%, 1);
+  font-size: 25px;
+}
+h2,
+h3,
+h4 {
+  font-family: inter;
+  margin-top: 0px;
+  margin-bottom: 3px;
+  text-align: center;
+}
+h3 {
+  color: hsla(25, 79%, 78%, 1);
+  font-size: 12.8px;
+  margin-bottom: 10px;
+}
+h4 {
+  color: hsla(0, 0%, 96%, 1);
+  text-align: center;
+  font-size: 10.24px;
+  margin-bottom: 22px;
+}
+a {
+  text-decoration: none;
+}
+button {
+  width: 260px;
+  line-height: 30px;
+  border-radius: 8px;
+  margin-left: 26px;
+  background: hsla(0, 0%, 100%, 1);
+  padding: 9px, 13px, 9px, 11px;
+  border: 1px solid hsla(216, 12%, 84%, 1);
+  box-shadow: 0px 1px 2px 0px hsla(0, 0%, 0%, 0.05);
+  font-size: 13px;
+  color: hsla(217, 19%, 27%, 1);
+  font-family: inter;
+  display: flex;
+  justify-content: center;
+}
+
+img.mail-icon {
+  width: 15px;
+  height: 17px;
+  opacity: 0px;
+  color: hsla(233, 12%, 13%, 1);
+  align-self: center;
+}
+main {
+  display: block;
+}
+h4.about,
+h4.interests {
+  font-family: inter;
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 30px;
+  margin-bottom: 0px;
+  margin-left: 90px;
+  line-height: 24px;
+  text-align: left;
+  color: hsla(0, 0%, 96%, 1);
+}
+p {
+  margin-left: 90px;
+  color: hsla(0, 0%, 86%, 1);
+  font-size: 13px;
+  font-family: inter;
+}
+
+footer {
+  height: 64px;
+  border-radius: 0px 0px 10px 10px;
+  background: hsla(231, 7%, 9%, 1);
+}
+.Twitter,
+.Facebook,
+.Insta,
+.Linkedin {
+  width: 25px;
+  height: 25px;
+  margin-left: 90px;
+  display: inline;
+  padding-top: 19px;
+  color: hsla(254, 6%, 58%, 1);
+}
